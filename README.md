@@ -16,6 +16,9 @@ Get a quick snapshot of memory, disk space, uptime, CPU count, and the processes
 
 ---
 
+<img src="https://github.com/zaquea/server_status/blob/58f1c80b049e97488c69a4ce5c4a152c95ddb47b/imgs/server-status-terminal-transparent.png">
+
+
 ## Contents
 
 - [What it does](#-what-it-does)

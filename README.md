@@ -26,7 +26,7 @@ Get a quick snapshot of memory, disk space, uptime, CPU count, and the processes
 - [Project structure](#-project-structure)
 - [Why I built it](#-why-i-built-it)
 
-## 🔎 What it does
+## What it does
 
 `server-status.sh` collects a few useful system details and prints them in one report. It is meant to be simple to run, easy to read, and useful for learning how to automate everyday Linux checks with Bash.
 
@@ -40,7 +40,7 @@ Get a quick snapshot of memory, disk space, uptime, CPU count, and the processes
 | 📊 Memory-heavy processes | Up to five processes sorted by memory usage |
 | 🧾 Memory details | A short memory summary, or the full `/proc/meminfo` listing |
 
-## 🧰 Requirements
+## Requirements
 
 The script is intended for Linux and uses Bash plus standard system utilities:
 
@@ -51,7 +51,7 @@ The script is intended for Linux and uses Bash plus standard system utilities:
 
 These tools are available by default on many Linux distributions. Exact output can vary between systems.
 
-## 🚀 Getting started
+## Getting started
 
 Clone the repository and enter the project directory:
 
@@ -72,7 +72,7 @@ Run the report:
 ./server-status.sh
 ```
 
-## 🕹️ Usage
+## Usage
 
 ### Standard report
 
@@ -92,7 +92,7 @@ Prints the same overview, followed by the complete contents of `/proc/meminfo`. 
 
 > **Note:** The full-memory output can be long because `/proc/meminfo` contains many kernel memory counters.
 
-## 💻 Example output
+## Example output
 
 The exact values depend on your system, but the report is organized into sections similar to this:
 
@@ -125,7 +125,7 @@ MemAvailable:   ... kB
 SwapFree:       ... kB
 ```
 
-## 📁 Project structure
+## Project structure
 
 ```text
 server_status/
@@ -134,7 +134,7 @@ server_status/
     └── server-status-tests.sh
 ```
 
-## 🌱 Why I built it
+## Why I built it
 
 This is a hands-on Bash and Linux project. I’m using it to get more comfortable with shell scripting, functions, command-line arguments, and reading system information from Linux.
 
@@ -144,6 +144,6 @@ The goal is to keep improving it as I learn — one useful feature at a time.
 
 <div align="center">
 
-Made with Bash on Linux 🐧
+Made with Bash on Linux
 
 </div>
